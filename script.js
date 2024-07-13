@@ -17,9 +17,9 @@ function firstNonRepeatedChar(str) {
 			return k
 		}
     }
-	if (flag==true || '') {
+	if (flag==true) {
 		return 'null'
 	}
 }
-//const input = prompt("Enter a string");
+const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
