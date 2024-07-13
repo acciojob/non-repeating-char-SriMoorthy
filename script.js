@@ -1,5 +1,8 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
+	if(str.length==''){
+		return null
+	}
 	
 	let k = ''
 	let flag = false
